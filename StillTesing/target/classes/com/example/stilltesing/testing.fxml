@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="420.0" xmlns="http://javafx.com/javafx " xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stilltesing.inputTesting">
+   <children>
+       <ImageView fx:id="ghostPhoto" fitHeight="184.0" fitWidth="279.0" layoutX="71.0" layoutY="124.0" onDragDetected="#hoverCall" onMouseClicked="#ClickDown" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/ghost.png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>
